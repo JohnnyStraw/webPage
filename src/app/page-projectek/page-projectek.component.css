@@ -1,0 +1,18 @@
+.text{
+  font-size: 4vw;
+  font-weight: bold;
+}
+.text2{
+  font-size: 2vw;
+  font-weight: bold;
+}
+#button1{
+  font-size:2vw;
+  border-radius: 10px;
+}
+#button2{
+  font-size:2vw;
+  border-radius: 10px;
+}
+
+

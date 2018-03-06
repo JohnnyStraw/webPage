@@ -1,0 +1,37 @@
+  ngAfterContentInit(){
+    let s = function (p) {
+      p.preload=function(){
+
+        //this.soundFile=new p5.SoundFile('../sounds/starwars.mp3');
+        this.sound =_.loadSound('../sounds/starwars.mp3');
+        console.log(this.sound);
+      };
+      p.setup=function() {
+        this.canvas=p.createCanvas(1024,720);
+        //this.amplitude = new Amplitude();
+
+        // start / stop the sound when canvas is clicked
+        this.canvas.mouseClicked(function() {
+          if (this.sound.isPlaying() ){
+            this.sound.stop();
+          } else {
+            this.sound.play();
+          }
+        });
+      };
+      p.draw=function(){
+        p.background(0);
+        p.fill(255);
+        //let level = this.amplitude.getLevel();
+        //let size = p.map(level, 0, 1, 0, 200);
+        //p.ellipse(p.width/2, p.height/2, size, size);
+      }
+    };
+    this.p5_instance=new p5(s);
+    //this.soundFile=new p5.SoundFile('../sounds/starwars.mp3');
+
+
+  }
+  ngOnDestroy(){
+    this.p5_instance.noCanvas();
+  }

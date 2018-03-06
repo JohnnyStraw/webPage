@@ -1,0 +1,17 @@
+
+<div class="jumbotron text-center">
+  <nav class="navbar">
+    <div class="container-fluid" id="contan">
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a [routerLink] = "['']"  >Home</a></li>
+        <li><a [routerLink] = "['/egyeb']" >Egyeb</a></li>
+        <li><a [routerLink] = "['/projectek']" >Projectek</a></li>
+        <li><a [routerLink] = "['/rolam']" >Rolam</a></li>
+      </ul>
+    </div>
+  </nav>
+  <li id="admin"><a id="admin1"[routerLink] = "['/admin']" >Admin</a></li>
+  <h1 id="h1">Üdv az oldalamon</h1>
+  <p id="p1">Semmi hasznos nem lesz rajta</p>
+</div>
+<router-outlet></router-outlet>

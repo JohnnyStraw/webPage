@@ -1,0 +1,20 @@
+#title{
+  width:70vw;
+  font-size:2.8vw;
+  text-align:center;
+  font-family: "Courier New";
+  font-weight: bold;
+}
+#article{
+  height:35vw;
+  font-size:1.3vw;
+  text-align:left;
+  margin-left: 4vw;
+
+}
+#authorNdate{
+  font-size:1vw;
+  font-weight:normal;
+  text-align:center;
+  font-family: "Courier New";
+}

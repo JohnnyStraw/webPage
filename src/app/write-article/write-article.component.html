@@ -1,0 +1,31 @@
+
+<div align="center" id="div">
+  <p>Cikk írása: </p>
+  <div class="row">
+    <textarea [(ngModel)]="title" placeholder="TITLE"></textarea>
+    <p></p>
+  </div>
+  <div class="row"><p></p>
+    <input [(ngModel)]="author" placeholder="author">
+    <input [(ngModel)]="date" placeholder="date"><br>
+  </div>
+  <div class="row"><p></p>
+    <textarea [(ngModel)]="article" id="article" placeholder="article lorem ipsum goes here"></textarea>
+    <br>
+  </div>
+  <div class="row"><p></p><br>Select page
+    <div class="checkbox">
+      <label><input [(ngModel)]="checkboxHome" type="checkbox"/>Home</label>
+    </div>
+    <div class="checkbox">
+      <label><input [(ngModel)]="checkboxRolam" type="checkbox"/>Rolam</label>
+    </div>
+        <button type="button" (click)="upload()" class="btn btn-primary btn-lg" id="button">Upload article</button>
+
+    </div>
+
+  </div>
+
+
+
+

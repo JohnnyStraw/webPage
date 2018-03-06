@@ -1,0 +1,13 @@
+textarea{
+  width:70vw;
+  font-size:2.8vw;
+  text-align:center;
+  font-family: "Courier New";
+  font-weight: bold;
+}
+#article{
+  height:35vw;
+  font-size:1.3vw;
+  text-align:left;
+}
+.dropdown-menu{width:1.6vw; left:40%;color:blue}

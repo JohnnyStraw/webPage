@@ -1,0 +1,10 @@
+{
+  "name": "3D",
+  "version": "0.0.1",
+  "dependencies": {
+    "babylonjs": "^3.2.0-alpha8",
+    "babylonjs-gui": "^3.2.0-alpha8",
+    "uniq": "^1.0.1",
+    "watchify": "^3.10.0"
+  }
+}

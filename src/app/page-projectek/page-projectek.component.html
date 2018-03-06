@@ -1,0 +1,38 @@
+
+
+
+
+<fejlec></fejlec>
+<div class="container">
+  <div class="row">
+    <p class="text">Az alábbi projectek elérhetőek: </p>
+    <div class="col-md-6">
+      <p></p>
+      <a href="/game" class="btn btn-primary btn-lg" id="button1" role="button">Deep Space Nonsense Game</a>
+      <p></p>
+    </div>
+    <div class="col-md-6">
+      <p></p>
+      <button type="button" (click)=showUpload() class="btn btn-primary btn-lg" id="button2">Heart sound analysis</button>
+</div>
+  </div>
+<div id="div">
+  <div class="row">
+    <p><img src="../../assets/heart.jpg"></p>
+    <p class="text2">Choose and upload a sound file</p>
+    <p></p>
+  </div>
+    <div class="row"><p></p>
+      <input type="file" name="photo" ng2FileSelect [uploader]="uploader" />
+      <p></p>
+      <button type="button" class="btn btn-primary btn-lg"  (click)="uploader.uploadAll()" [disabled]="!uploader.getNotUploadedItems().length">
+        Upload
+      </button>
+      <div id="imgdiv"></div>
+    </div>
+ </div>
+</div>
+
+
+
+

@@ -1,0 +1,22 @@
+<fejlec></fejlec>
+
+<div *ngFor="let title of articleData.title.reverse(); let i=index">
+  <div align="center" id="div">
+    <div class="row" id="title">
+      <p>{{articleData.title[i]}}</p>
+    </div>
+    <div class="row"><p id="authorNdate">
+      {{articleData.author[i]}}    {{articleData.date[i]}}
+    </p>
+    </div>
+    <div class="row"><p></p>
+      <p id="article">{{articleData.article[i]}}</p>
+    </div>
+
+
+
+
+  </div>
+</div>
+
+

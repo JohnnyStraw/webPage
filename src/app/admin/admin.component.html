@@ -1,0 +1,29 @@
+
+
+  <!-- Modal -->
+  <div class="modal show" (keyup.enter)="validate(username.value,password.value)" id="myModal" role="dialog" >
+    <div class="modal-dialog" >
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Admin Area</h4>
+        </div>
+        <div class="modal-body" id="formDiv">
+          <form>
+            <input #username placeholder="Username"><br>
+            <input #password  type="password" placeholder="Password"><br>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default"  data-dismiss="modal" (click)="validate(username.value,password.value)">Login</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+<div id="div">
+  <fejlec></fejlec>
+<app-write-article></app-write-article>
+</div>

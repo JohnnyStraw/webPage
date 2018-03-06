@@ -1,0 +1,68 @@
+.body{
+  background-image: url("../images/nEmh4fS.jpg");
+  background-size: cover;
+
+}
+.jumbotron{
+  background-image: url("../images/nEmh4fS.jpg");
+  background-size: cover;
+
+
+
+}
+
+#h1{
+  color: darkblue;
+  font-size: 7vw;
+  font-family: "Courier New";
+  font-weight: bold
+
+}
+#p1{
+  color: darkblue;
+  font-size: 4vw;
+  font-family: "Courier New";
+  font-weight: bold
+}
+
+.navbar{float:left; text-align:left;
+  color: black;
+
+}
+#admin{
+  font-size: 1vw;
+  color:white;
+  text-align: right;
+  list-style-type: none;
+}
+#admin1{
+  color:white;
+}
+ul li a{
+  color:white;
+  font-size: 2vw;
+
+
+}
+
+ul li a:hover{
+  background-color: #555555;
+
+
+}
+ul li a:active{
+  background-color: #555555;
+
+
+}
+ul li a:focus{
+  background-color: #555555;
+
+
+}
+
+
+
+
+
+
